@@ -1,0 +1,23 @@
+.container-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    padding: 0px 30px;
+}
+
+p:last-child {
+    padding-bottom: 200px;
+}
