@@ -14,3 +14,17 @@
 .container-p {
     padding: 30px;
 }
+
+@media only screen and (max-width: 800px) {
+    .container-img {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-img img {
+        width: 200px;
+        height: 200px;
+    }
+}

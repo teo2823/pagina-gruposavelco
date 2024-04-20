@@ -2,6 +2,7 @@
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
+    padding: 10px 20px;
 }
 
 .container-contact h2 {
@@ -21,7 +22,7 @@
 }
 
 .direccion {
-    padding: 40px 30px 40px 30px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +35,83 @@
 }
 
 .direccion img {
-    width: 800px;
-    height: 600px;
+    width: 100%;
+    height: 500px;
     margin: auto;
+}
+
+input, select{
+    border-radius: 5px;
+    border-color: #cbcbcb;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: none;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 15px;
+}
+
+.container-form {
+    width: 50%;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-radios {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+
+}
+.container-radios input {
+    margin-right: 7px;
+}
+
+.container-btn {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-enviar {
+    background-color: #171717;
+    color: #fff;
+    padding: 6px 40px;
+}
+@media only screen and (max-width: 1000px) {
+    .direccion img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .container-form, .direccion, .item-form, .container-btn{
+        width: 100%;
+    }
+
+    .container-btn{
+        margin-bottom: 50px;
+    }
+    .direccion img {
+        height: 340px;
+    }
+    
 }

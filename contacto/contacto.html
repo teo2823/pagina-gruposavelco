@@ -26,13 +26,53 @@
 <body>
 
     <div class="container-contact">
-        <h2>Contactanos!</h2>
-
-        <div class="datos">
-            <h2>Celular: 3217952177</h2>
-            <h2>ventascintasyavisos@gmail.com</h2>
+        <div class="container-form">
+            <h2>Contactanos</h2>
+            <form action="">
+                <div class="item-form">
+                    <label for="nombre">Por favor ponga su nombre</label>
+                    <input type="text">
+                </div>
+                <div class="item-form">
+                    <label for="apellido">Por favor ponga su apellido</label>
+                    <input type="text">
+                </div>
+                <div class="item-form">
+                    <label for="email">Por favor ponga su e-mail</label>
+                    <input type="text">
+                </div>
+                <div class="item-form">
+                    <label for="email">Que quiere sugerir</label>
+                    <div class="container-radios">
+                        <div class="radio">
+                            <input type="radio" id="sugerencia" name="opcion" value="sugerencia">
+                            <label for="sugerencia">Sugerencia</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="queja" name="opcion" value="queja">
+                            <label for="queja">Queja</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="reclamo" name="opcion" value="reclamo">
+                            <label for="reclamo">Reclamo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-form">
+                    <label for="contacto">¿Cómo quieres ser contactado?</label>
+                    <select id="contacto" name="contacto">
+                        <option value="llamada">Llamada</option>
+                        <option value="correo">Correo electrónico</option>
+                        <option value="mensaje">Mensaje de texto</option>
+                        <option value="whatsapp">WhatsApp</option>
+                    </select>
+                </div>
+                <div class="container-btn">
+                    <input class="btn-enviar" type="submit" value="ENVIAR">
+                </div>
+            </form>
         </div>
-
+        
         <div class="direccion">
             <h2>Direccion:</h2>
             <p>Cl. 31 #44 167, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia</p>
