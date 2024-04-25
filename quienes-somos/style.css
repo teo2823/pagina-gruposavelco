@@ -6,6 +6,7 @@
     margin-bottom: 50px;
 }
 
+
 .container-img img {
     width: 300px;
     height: 300px;
@@ -15,7 +16,18 @@
     padding: 30px;
 }
 
-@media only screen and (max-width: 800px) {
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.video {
+    width: 500px;
+    height: 800px;
+}
+
+/* @media only screen and (max-width: 800px) {
     .container-img {
         flex-direction: column;
         align-items: center;
@@ -27,4 +39,4 @@
         width: 200px;
         height: 200px;
     }
-}
+} */

@@ -40,6 +40,10 @@ li a {
     font-weight: 100;
 }
 
+li a:hover {
+    color: #626262;
+}
+
 
 .portada {
     width: 100%;
@@ -51,6 +55,17 @@ li a {
     background-image: url(imagenes/IMG_0947.jpg);
     background-position: center;
     background-size: cover;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #171717;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #414141;
 }
 
 .portada-texto {
@@ -148,7 +163,7 @@ footer p {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .container-footer {
         flex-direction: column;
         align-items: center;
@@ -182,4 +197,4 @@ footer p {
     li a {
         font-size: 13px;
     }
-}
+} */

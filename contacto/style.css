@@ -91,7 +91,49 @@ input, select{
     color: #fff;
     padding: 6px 40px;
 }
-@media only screen and (max-width: 1000px) {
+
+section.redes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 30px 20px;
+}
+
+section.redes h2 {
+    font-size: 40px;
+}
+.container-redes {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-redes li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-redes li a{
+    color: rgb(27, 69, 218);
+    font-size: 40px;
+    text-decoration: underline;
+}
+.container-redes li a:hover{
+    color: rgb(15, 45, 153);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.redes li img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* @media only screen and (max-width: 1000px) {
     .direccion img {
         height: 400px;
     }
@@ -114,4 +156,4 @@ input, select{
         height: 340px;
     }
     
-}
+} */
